@@ -377,8 +377,6 @@ Os dados deste desafio serão persistidos em um Banco de Dados PostgreSQL chamad
 
 ## **EXTRA**
 
-**ATENÇÃO!:** Esta parte extra não é obrigatória e recomendamos que seja feita apenas quando terminar toda a parte obrigatória acima.
-
 ### **Filtrar transações por categoria**
 
 #### **Exemplo de requisição**
