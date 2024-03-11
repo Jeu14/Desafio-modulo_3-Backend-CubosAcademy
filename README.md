@@ -1,6 +1,6 @@
 # Desafio Módulo 3 - Backend - Cubos Academy
 
-
+### Link do deploy: https://desafio-modulo-3-backend-cubos-academy.vercel.app/
 
 ## RESTful API que permite:
 
