@@ -11,7 +11,6 @@ const detalharUsuario = async (req, res) => {
         }
         return res.status(200).json(usuario);
     } catch (error) {
-        console.log(error.message);
         return res
             .status(500)
            .json({ mensagem: "[ERRO] Não foi possível detalhar o usuário" });

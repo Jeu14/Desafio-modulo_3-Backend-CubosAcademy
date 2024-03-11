@@ -30,7 +30,6 @@ const verificarLogin = async (req, res, next) => {
         req.usuario = usuarioSemSenha;
         next();
     } catch (error) {
-        console.log(error.message);
         return res.status(401).json({
             mensagem:
                 "Para acessar este recurso um token de autenticação válido deve ser enviado.",

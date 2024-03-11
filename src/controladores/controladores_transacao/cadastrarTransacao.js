@@ -36,7 +36,6 @@ const cadastrarTransacao = async (req, res) => {
 
         return res.status(201).json(transacaoFormatada);
     } catch (error) {
-        console.log(error.message);
         return res.status(500).json({
             mensagem: "[ERRO] Não foi possível cadastrar a transação",
         });

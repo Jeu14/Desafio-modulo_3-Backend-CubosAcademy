@@ -28,7 +28,6 @@ const listarTransacoes = async (req, res) => {
         }
 
     } catch (error) {
-        console.log(error.message);
         return res.status(500).json({
             mensagem:
                 "[ERRO] Não foi possível listar as transações do usuário logado",
